@@ -1,17 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grocery Bud</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <!-- My Css -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    
-    <h1>testing</h1>
+
+    <section class="section-center">
+        <!-- Form -->
+        <form class="grocery-form">
+            <p class="alert"></p>
+            <h3>grocery bud</h3>
+            <div class="form-control">
+                <input type="text" id="grocery" placeholder="e.g eggs">
+                <button type="submit" class="submit-btn">submit</button>
+            </div>
+
+        </form>
+        <!-- List -->
+        <div class="grocery-container">
+            <div class="grocery-list">
+                <!-- <article class="grocery-item">
+                    <p class="title">item</p>
+                    <div class="btn-container">
+                        <button class="edit-btn">
+                            <i class="fas fa-edit"></i>
+                        </button>
+                        <button class="edit-btn">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    </div>
+                </article> -->
+            </div>
+            <!-- Button -->
+            <button type="button" class="clear-btn">clear items</button>
+        </div>
+         <!-- <button type="button" class="clear-btn">clear items</button> -->
+    </section>
 
     <!-- My Js -->
     <script src="./js/main.js"></script>
 </body>
+
 </html>
